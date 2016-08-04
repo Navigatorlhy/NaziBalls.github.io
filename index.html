@@ -1,15 +1,48 @@
-<h6>vim到底应该怎么用嘞？
-q!	#不保存退出<br>
-wq	#保存退出<br>
-x	#删除光标所在位置字符<br>
-i	#insert<br>
-A	#在本行的最后插入<br>
-dw	#删除一个单词<br>
-d$	#删除光标到本行结束<br>
-dd	#删除整行<br>
-2w	#前进2单词<br>
-0	#到达行尾<br>
-u	#撤销<br>
-U	#撤销本行所有修改<br>
-CTRL-R	#undo the undo<br>
+<h3>vim到底应该怎么用嘞？<br>
+<p>
+q!	不保存退出<br>
+wq	保存退出<br>
+x	删除光标所在位置字符<br>
+i	insert<br>
+A	在本行的最后插入<br>
+dw	删除一个单词<br>
+d$	删除光标到本行结束<br>
+dd	删除整行<br>
+2w	前进2单词<br>
+0	到达行尾<br>
+u	撤销<br>
+U	撤销本行所有修改<br>
+CTRL-R	undo the undo<br>
+<p>
+p	将上次删除的内容添加到光标后<br>
+r	替换当前光标所在文本<br>
+cw	修改一个词<br>
+CTRL-G 	显示路径和行数<br>
+G	移到文件末尾<br>
+number+G移到指定行数<br>
+gg	移到文件开头<br>
+/+phrase正向查找<br>
+?phrase 反向查找<br>
+n	查找下一个<br>
+N	查找上一个<br>
+CRTL-O	返回上个位置<br>
+CTRL-I	返回下个位置<br>
+%	匹配括号<br>
+:#,#s/old/new/g	在两个行数之间用new替换old<br>
+:%s/old/new/gc	全文替换并提示<br>
+:!	执行外部命令<br>
+:w FILENAME	另存为
+v:	区域选定
+:r	读文件并插入
+:r !	读外部命令并插入结果
+o:	另开一行插入
+O:	向上另开一行插入
+a:	在光标后插入
+$:	到行尾
+e:	移到单位尾
+w:	下一个单词头
+b:	上一个单词头
+y:	复制
+p:	粘贴
+R:	改写
 
