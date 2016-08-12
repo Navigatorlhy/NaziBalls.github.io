@@ -10,16 +10,17 @@ table{
 td {
     border: 1px solid red;
 }
-div {
+div:nth-child(3){
     height: 50px;
     width: 120px;
     border-color: #6495ED;
     background-color: #BCD2EE;
     border-style: solid;
     border-width: 2px;
-    border-radius: 5px;
+    border-radius: 100%;
     margin: auto;
     text-align: center;
+    display: inline-block;
 }
 
 a:link {
