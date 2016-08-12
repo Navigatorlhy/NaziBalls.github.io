@@ -22,12 +22,18 @@ div {
     text-align: center;
 }
 
-a {
+a:link {
     text-decoration: none;
     color: black;
     font-family: cursive;
 }
+a:visited {
+          color: #EE9A00;
+}
 
+a:hover {
+        color: #00FF00;
+}
 #html {
       text-decoration: none;
       color: black;
